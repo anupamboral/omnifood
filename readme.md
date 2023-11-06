@@ -1,5 +1,7 @@
 # Omnifood
 
+[Live link](https://omnifood-anupam.netlify.app/)
+
 ## About Omnifood
 
 We are a technology company first, but with a major focus on consumer well-being through a healthy diet. Most people are very busy with their jobs, family and friends, and other important activities, which doesn't leave much time for cooking. This might lead to a poor diet and lasting health consequences. We want to solve this problem by using an AI-centric approach. Users can use our app to select their diet and foods they like and dislike, and our AI algorithm will create a custom and individual weekly meal plan. But we don't stop there. We partner with restaurants and other cooking partners to actually cook and deliver all meals from the generated meal plans, in selected cities. All this will be packed up in a monthly subscription, where users can choose between receiving one or two meals per day, every single day of the month.
@@ -25,7 +27,9 @@ Pause anytime: Going on vacation? Just pause your subscription, and we refund un
 
 ### How Omnifood works
 
-[Show big app images]
+[Show big app images](img/app/app-screen-1.png)
+[Show big app images](img/app/app-screen-2.png)
+[Show big app images](img/app/app-screen-3.png)
 
 **Your daily dose of health in 3 simple steps**
 
@@ -69,8 +73,6 @@ Meal 2: Avocado Salad
 
 ### We offer a free sample meal
 
-[Create simple form for users to sign up]
-
 Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
 
 ### We have 2 pricing plans
@@ -92,11 +94,27 @@ Complete: $649 per month
 
 ### Photo gallery
 
-[Use the 12 photos we provided]
+[meal sample 1](img/gallery/gallery-1.jpg)
+[meal sample 2](img/gallery/gallery-2.jpg)
+[meal sample 3](img/gallery/gallery-3.jpg)
+[meal sample 4](img/gallery/gallery-4.jpg)
+[meal sample 5](img/gallery/gallery-5.jpg)
+[meal sample 6](img/gallery/gallery-6.jpg)
+[meal sample 7](img/gallery/gallery-7.jpg)
+[meal sample 8](img/gallery/gallery-8.jpg)
+[meal sample 9](img/gallery/gallery-9.jpg)
+[meal sample 10](img/gallery/gallery-10.jpg)
+[meal sample 11](img/gallery/gallery-11.jpg)
+[meal sample 12](img/gallery/gallery-12.jpg)
 
 ### Customer testimonials
 
-[Photos of customers included]
+[Photos of customer 1](img/customers/customer-1.jpg)
+[Photos of customer 2](img/customers/customer-2.jpg)
+[Photos of customer 3](img/customers/customer-3.jpg)
+[Photos of customer 4](img/customers/customer-4.jpg)
+[Photos of customer 5](img/customers/customer-5.jpg)
+[Photos of customer 6](img/customers/customer-6.jpg)
 
 Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. (Dave Bryson)
 The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! (Ben Hadley)
@@ -104,6 +122,12 @@ Omnifood is a life saver! I just started a company, so there's no time for cooki
 I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Hannah Smith)
 
 ### Section with logos of featured publications [see images]
+
+[featured publication](img/logos/business-insider.png)
+[featured publication](img/logos/forbes.png)
+[featured publication](img/logos/techcrunch.png)
+[featured publication](img/logos/the-new-york-times.png)
+[featured publication](img/logos/usa-today.png)
 
 ### Contact information
 
