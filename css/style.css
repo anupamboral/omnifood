@@ -13,10 +13,9 @@
 }
 .logo {
   height: 2.2rem;
-
-  /* animation: myAnim4 3.5s ease 0s 1 normal forwards; */
+  animation: myAnim4 3.5s ease 0s 1 normal forwards;
 }
-/* @keyframes myAnim4 {
+@keyframes myAnim4 {
   0%,
   100% {
     transform: translateX(0%);
@@ -42,8 +41,7 @@
   75% {
     transform: translateX(-6px) rotate(1.2deg);
   }
-} */
-
+}
 /* * navigation */
 
 .main-nav-list {
@@ -110,7 +108,7 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  z-index: 99999;
+  z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 .sticky .section-hero {
@@ -129,53 +127,7 @@
 }
 .hero-img {
   width: 100%;
-  /* animation: myAnim2 2s ease 0s 1 normal forwards; */
 }
-/* @keyframes myAnim2 {
-  0% {
-    animation-timing-function: ease-in;
-    opacity: 1;
-    transform: translateY(-45px);
-  }
-
-  24% {
-    opacity: 1;
-  }
-
-  40% {
-    animation-timing-function: ease-in;
-    transform: translateY(-24px);
-  }
-
-  65% {
-    animation-timing-function: ease-in;
-    transform: translateY(-12px);
-  }
-
-  82% {
-    animation-timing-function: ease-in;
-    transform: translateY(-6px);
-  }
-
-  93% {
-    animation-timing-function: ease-in;
-    transform: translateY(-4px);
-  }
-
-  25%,
-  55%,
-  75%,
-  87% {
-    animation-timing-function: ease-out;
-    transform: translateY(0px);
-  }
-
-  100% {
-    animation-timing-function: ease-out;
-    opacity: 1;
-    transform: translateY(0px);
-  }
-} */
 
 .hero {
   display: grid;
@@ -196,53 +148,7 @@
 .delivered-imgs {
   display: flex;
   align-items: center;
-  /* animation: myAnim3 2s ease 0s 1 normal forwards; */
 }
-/* @keyframes myAnim3 {
-  0% {
-    animation-timing-function: ease-in;
-    opacity: 1;
-    transform: translateY(-45px);
-  }
-
-  24% {
-    opacity: 1;
-  }
-
-  40% {
-    animation-timing-function: ease-in;
-    transform: translateY(-24px);
-  }
-
-  65% {
-    animation-timing-function: ease-in;
-    transform: translateY(-12px);
-  }
-
-  82% {
-    animation-timing-function: ease-in;
-    transform: translateY(-6px);
-  }
-
-  93% {
-    animation-timing-function: ease-in;
-    transform: translateY(-4px);
-  }
-
-  25%,
-  55%,
-  75%,
-  87% {
-    animation-timing-function: ease-out;
-    transform: translateY(0px);
-  }
-
-  100% {
-    animation-timing-function: ease-out;
-    opacity: 1;
-    transform: translateY(0px);
-  }
-} */
 .delivered-imgs img {
   height: 4.2rem;
   width: 4.2rem;
@@ -301,7 +207,7 @@
   color: #ddd;
   margin-bottom: 1.2rem;
 }
-.description {
+.step-description {
   font-size: 1.8rem;
   line-height: 1.8;
 }
@@ -327,8 +233,19 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) rotate(0deg);
+
+  /**for animation*/
+  border: 3px solid #fee84422;
   border-top: 3px solid #1ecd8a;
   animation: ani 1s linear infinite;
+}
+@keyframes ani {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 .step-img-box::before {
